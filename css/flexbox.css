@@ -52,6 +52,11 @@
     margin-right: 0;
 }
 
+.videoSobre .container {
+    display: flex;
+    align-items: center;
+}
+
 
 /*Parte mobile*/
 @media screen and (max-width: 768px) {
@@ -94,5 +99,9 @@
     /* .rodapePrincipal-contatoForm-fieldset {
         align-items: center;
     } */
+
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1 ;
+    }
 
 }
