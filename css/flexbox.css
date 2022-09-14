@@ -1,0 +1,10 @@
+/*.container ao final siginifica que é o container que esta dentro de cabecalhoPrincipal-titulo  */
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
