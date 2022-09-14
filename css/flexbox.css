@@ -1,10 +1,30 @@
 /*.container ao final siginifica que é o container que esta dentro de cabecalhoPrincipal-titulo  */
 .cabecalhoPrincipal .container {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
 .cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+.rodapePrincipal-patrocinadores-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    width: 70%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 20%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
